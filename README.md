@@ -64,7 +64,7 @@ EZ-Encrypt was developed as an easy way to securely encrypt data without having 
 ```
 ```xml
     <dependency>
-        <groupId>net.insprill</groupId>
+        <groupId>com.github.Insprill</groupId>
         <artifactId>EZ-Encrypt</artifactId>
         <version>1.0.0</version>
         <scope>provided</scope>
@@ -78,7 +78,7 @@ repositories {
 ```
 ```groovy
 dependencies {
-    implementation group: 'net.insprill', name: 'EZ-Encrypt', version: '1.0.0'
+    implementation group: 'com.github.Insprill', name: 'EZ-Encrypt', version: '1.0.0'
 }
 ```
 
@@ -135,13 +135,13 @@ Project Link: [https://github.com/Insprill/EZ-Encrypt](https://github.com/Inspri
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/Insprill/repo.svg?style=for-the-badge
-[contributors-url]: https://github.com/Insprill/repo/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/Insprill/repo.svg?style=for-the-badge
-[forks-url]: https://github.com/Insprill/repo/network/members
-[stars-shield]: https://img.shields.io/github/stars/Insprill/repo.svg?style=for-the-badge
-[stars-url]: https://github.com/Insprill/repo/stargazers
-[issues-shield]: https://img.shields.io/github/issues/Insprill/repo.svg?style=for-the-badge
-[issues-url]: https://github.com/Insprill/repo/issues
-[license-shield]: https://img.shields.io/github/license/Insprill/repo.svg?style=for-the-badge
-[license-url]: https://github.com/Insprill/repo/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/Insprill/EZ-Encrypt.svg?style=for-the-badge
+[contributors-url]: https://github.com/Insprill/EZ-Encrypt/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/Insprill/EZ-Encrypt.svg?style=for-the-badge
+[forks-url]: https://github.com/Insprill/EZ-Encrypt/network/members
+[stars-shield]: https://img.shields.io/github/stars/Insprill/EZ-Encrypt.svg?style=for-the-badge
+[stars-url]: https://github.com/Insprill/EZ-Encrypt/stargazers
+[issues-shield]: https://img.shields.io/github/issues/Insprill/EZ-Encrypt.svg?style=for-the-badge
+[issues-url]: https://github.com/Insprill/EZ-Encrypt/issues
+[license-shield]: https://img.shields.io/github/license/Insprill/EZ-Encrypt.svg?style=for-the-badge
+[license-url]: https://github.com/Insprill/EZ-Encrypt/blob/master/LICENSE.txt
