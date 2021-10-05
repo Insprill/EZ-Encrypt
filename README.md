@@ -125,7 +125,7 @@ Distributed under the GNU GPLv3 License. See `LICENSE` for more information.
 
 Twitter - [@InsprillO_O](https://twitter.com/InsprillO_O)
 
-Discord - [https://discord.gg/ZW4dvfr](https://discord.gg/ZW4dvfr)
+Discord - [https://discord.gg/ZW4dvfr](https://discord.gg/SH7VyYtuC2)
 
 Project Link: [https://github.com/Insprill/EZ-Encrypt](https://github.com/Insprill/EZ-Encrypt)
 
