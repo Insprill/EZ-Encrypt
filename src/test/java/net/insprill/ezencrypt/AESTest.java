@@ -1,3 +1,5 @@
+package net.insprill.ezencrypt;
+
 import net.insprill.ezencrypt.aes.AES;
 import net.insprill.ezencrypt.aes.AESSettings;
 import net.insprill.ezencrypt.exceptions.DecryptionFailedException;
