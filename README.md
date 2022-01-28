@@ -2,7 +2,7 @@
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
-[![GPLv3 License][license-shield]][license-url]
+[![Apache 2.0 License][license-shield]][license-url]
 
 
 
@@ -118,7 +118,7 @@ Contributions are what make the open source community such an amazing place to l
 <!-- LICENSE -->
 ## License
 
-Distributed under the GNU GPLv3 License. See `LICENSE` for more information.
+Distributed under the Apache 2.0 License. See `LICENSE` for more information.
 
 
 
@@ -146,4 +146,4 @@ Project Link: [https://github.com/Insprill/EZ-Encrypt](https://github.com/Inspri
 [issues-shield]: https://img.shields.io/github/issues/Insprill/EZ-Encrypt.svg?style=for-the-badge
 [issues-url]: https://github.com/Insprill/EZ-Encrypt/issues
 [license-shield]: https://img.shields.io/github/license/Insprill/EZ-Encrypt.svg?style=for-the-badge
-[license-url]: https://github.com/Insprill/EZ-Encrypt/blob/master/LICENSE.txt
+[license-url]: https://github.com/Insprill/EZ-Encrypt/blob/master/LICENSE
