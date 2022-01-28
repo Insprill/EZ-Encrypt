@@ -55,6 +55,7 @@ EZ-Encrypt was developed as an easy way to securely encrypt data without having 
 ## Usage
 
 ### Implementing in your project
+[![Release](https://jitpack.io/v/Insprill/EZ-Encrypt.svg)](https://jitpack.io/#Insprill/EZ-Encrypt)
 #### Maven
 ```xml
     <repository>
@@ -64,9 +65,9 @@ EZ-Encrypt was developed as an easy way to securely encrypt data without having 
 ```
 ```xml
     <dependency>
-        <groupId>com.github.Insprill</groupId>
+        <groupId>net.nsprill</groupId>
         <artifactId>EZ-Encrypt</artifactId>
-        <version>1.0.0</version>
+        <version>version</version>
         <scope>provided</scope>
     </dependency>
 ```
@@ -78,18 +79,19 @@ repositories {
 ```
 ```groovy
 dependencies {
-    implementation group: 'com.github.Insprill', name: 'EZ-Encrypt', version: '1.0.0'
+    implementation group: 'net.insprill', name: 'EZ-Encrypt', version: 'version'
+    // or
+    implementation 'net.insprill:EZ-Encrypt:version'
 }
 ```
 
 ### Compiling
 
-To compile Encryption Utils, you need JDK 8 or higher and an internet connection.  
-Clone this repo, then run `./mvn install` from your terminal.  
-You can find the compiled jar in the `target` directory, and it will be installed to your local Maven repo.  
-If you just want the jar without it being added to your local Maven repo, run `./mvn package`.
-
-_For more examples, please refer to the [Documentation](https://github.com/Insprill/EZ-Encrypt/wiki)_.
+To compile EZ-Encrypt, you need JDK 8 or higher and an internet connection.  
+First, clone this repo, with `git clone https://github.com/Insprill/EZ-Encrypt.git`.  
+Then run `./gradlew build` from your terminal.  
+You can find the compiled jar in the `build/libs` directory.  
+If you want the compiled jar published to your local Maven repo, run `./gradlew publishToMavenLocal`.
 
 
 
