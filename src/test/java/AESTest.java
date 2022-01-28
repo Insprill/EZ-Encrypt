@@ -2,12 +2,12 @@ import net.insprill.ezencrypt.aes.AES;
 import net.insprill.ezencrypt.aes.AESSettings;
 import net.insprill.ezencrypt.exceptions.DecryptionFailedException;
 import net.insprill.ezencrypt.exceptions.EncryptionFailedException;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
 import java.security.SecureRandom;
 
-import static org.junit.Assert.assertArrayEquals;
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertArrayEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class AESTest {
 
