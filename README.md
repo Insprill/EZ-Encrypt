@@ -51,33 +51,22 @@ EZ-Encrypt was developed as an easy way to securely encrypt data without having 
 ## Usage
 
 ### Implementing in your project
-[![Release](https://jitpack.io/v/Insprill/EZ-Encrypt.svg)](https://jitpack.io/#Insprill/EZ-Encrypt)
+
+[![Maven Central][maven-central-shield]][license-url]
 #### Maven
-```xml
-    <repository>
-	<id>jitpack.io</id>
-	<url>https://jitpack.io</url>
-    </repository>
-```
 ```xml
     <dependency>
         <groupId>net.nsprill</groupId>
         <artifactId>EZ-Encrypt</artifactId>
         <version>version</version>
-        <scope>provided</scope>
     </dependency>
 ```
 #### Gradle
 ```groovy
-repositories {
-    maven { url = 'https://jitpack.io' }
-}
-```
-```groovy
 dependencies {
-    implementation group: 'net.insprill', name: 'EZ-Encrypt', version: 'version'
-    // or
     implementation 'net.insprill:EZ-Encrypt:version'
+    // or
+    implementation group: 'net.insprill', name: 'EZ-Encrypt', version: 'version'
 }
 ```
 
@@ -125,3 +114,5 @@ Distributed under the Apache 2.0 License. See [`LICENSE`][license-url] for more 
 [issues-url]: https://github.com/Insprill/EZ-Encrypt/issues
 [license-shield]: https://img.shields.io/github/license/Insprill/EZ-Encrypt.svg?style=for-the-badge
 [license-url]: https://github.com/Insprill/EZ-Encrypt/blob/master/LICENSE
+[maven-central-shield]: https://img.shields.io/maven-central/v/net.insprill/EZ-Encrypt
+[maven-central-url]: https://mvnrepository.com/artifact/net.insprill/EZ-Encrypt
