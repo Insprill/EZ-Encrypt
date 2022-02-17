@@ -59,6 +59,8 @@ public class AESSettings {
     }
 
     /**
+     * Gets the salt length.
+     *
      * @return The specified salt length, or the default if none has been set.
      * @since 1.0.0
      */
@@ -67,6 +69,8 @@ public class AESSettings {
     }
 
     /**
+     * Gets the key length.
+     *
      * @return The specified key length, or the default if none has been set.
      * @since 1.0.0
      */
@@ -75,6 +79,8 @@ public class AESSettings {
     }
 
     /**
+     * Gets the auth key length.
+     *
      * @return The specified key length, or the default if none has been set.
      * @since 1.0.0
      */
@@ -83,6 +89,8 @@ public class AESSettings {
     }
 
     /**
+     * Gets the charset used for encoding/decoding.
+     *
      * @return The specified {@link Charset}, or the default if none has been set.
      * @since 1.0.0
      */
