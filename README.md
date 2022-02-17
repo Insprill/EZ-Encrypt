@@ -12,20 +12,17 @@
   <a href="https://github.com/Insprill/EZ-Encrypt">
     <img src="https://imgur.com/BvJ2zvM.png" alt="Logo" width="128" height="128">
   </a>
+</p>
 <h2 align="center">EZ-Encrypt</h2>
-
-  <p align="center">
-    EZ-Encrypt is a simple library for easily encrypting data.
-    <br />
-    <a href="https://insprill.net/javadocs/ezencrypt"><strong>View Javadocs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/Insprill/EZ-Encrypt">View Demo</a>
-    ·
-    <a href="https://github.com/Insprill/EZ-Encrypt/issues">Report Bugs</a>
-    ·
-    <a href="https://github.com/Insprill/EZ-Encrypt/issues">Request Features</a>
-  </p>
+<p align="center">
+  A light-weight library for easily encrypting data in Java.
+  <br />
+  <a href="https://insprill.net/javadocs/ezencrypt"><strong>View Javadocs »</strong></a>
+  <br />
+  <br />
+  <a href="https://github.com/Insprill/EZ-Encrypt/issues">Report Bugs</a>
+  ·
+  <a href="https://github.com/Insprill/EZ-Encrypt/issues">Request Features</a>
 </p>
 
 
@@ -36,10 +33,8 @@
   <ol>
     <li><a href="#usage">Usage</a></li>
     <li><a href="#compiling">Compiling</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
   </ol>
 </details>
 
@@ -49,6 +44,7 @@
 ## About The Project
 
 EZ-Encrypt was developed as an easy way to securely encrypt data without having to write all the overhead yourself.
+
 
 
 <!-- USAGE EXAMPLES -->
@@ -95,13 +91,6 @@ If you want the compiled jar published to your local Maven repo, run `./gradlew 
 
 
 
-<!-- ROADMAP -->
-## Roadmap
-
-See the [open issues](https://github.com/Insprill/EZ-Encrypt/issues) for a list of proposed features (and known issues).
-
-
-
 <!-- CONTRIBUTING -->
 ## Contributing
 
@@ -109,29 +98,18 @@ Contributions are what make the open source community such an amazing place to l
 
 1. Fork the Project
 2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+3. Make your changes.
+4. Stage your changes (`git add .`)
+5. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+6. Push to the Branch (`git push origin feature/AmazingFeature`)
+7. Open a Pull Request
 
 
 
 <!-- LICENSE -->
 ## License
 
-Distributed under the Apache 2.0 License. See `LICENSE` for more information.
-
-
-
-<!-- CONTACT -->
-## Contact
-
-Twitter - [@InsprillO_O](https://twitter.com/InsprillO_O)
-
-Discord - [https://discord.gg/ZW4dvfr](https://discord.gg/SH7VyYtuC2)
-
-Project Link: [https://github.com/Insprill/EZ-Encrypt](https://github.com/Insprill/EZ-Encrypt)
-
-
+Distributed under the Apache 2.0 License. See [`LICENSE`][license-url] for more information.
 
 
 
