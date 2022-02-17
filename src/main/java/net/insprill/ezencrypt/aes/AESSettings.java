@@ -18,6 +18,7 @@ public class AESSettings {
      * Sets the salt length.
      *
      * @param saltLength Length of the salt.
+     * @return The settings builder.
      * @since 1.0.0
      */
     public AESSettings setSaltLength(byte saltLength) {
@@ -29,6 +30,7 @@ public class AESSettings {
      * Sets the length of the encryption key.
      *
      * @param keyLength Key length.
+     * @return The settings builder.
      * @since 1.0.0
      */
     public AESSettings setKeyLength(AESKeyLength keyLength) {
@@ -40,6 +42,7 @@ public class AESSettings {
      * Sets the length of the authentication key.
      *
      * @param authLength Key length.
+     * @return The settings builder.
      * @since 1.0.0
      */
     public AESSettings setKeyLength(AESAuthTagLength authLength) {
@@ -51,6 +54,7 @@ public class AESSettings {
      * Sets the charset used for encrypting/ decrypting.
      *
      * @param charset Charset to use.
+     * @return The settings builder.
      * @since 1.0.0
      */
     public AESSettings setCharset(Charset charset) {

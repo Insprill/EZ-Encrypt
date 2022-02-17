@@ -16,8 +16,14 @@ public enum AESKeyLength {
      * Uses a 256-bit key for encrypting data.
      */
     AES_256(256);
+
+    /**
+     * Bit-length.
+     */
     public final int length;
+
     AESKeyLength(int length) {
         this.length = length;
     }
+
 }

@@ -2,6 +2,9 @@ package net.insprill.ezencrypt.exceptions;
 
 import java.security.GeneralSecurityException;
 
+/**
+ * Thrown when an error occurs during encryption.
+ */
 public class EncryptionFailedException extends GeneralSecurityException {
 
     /**

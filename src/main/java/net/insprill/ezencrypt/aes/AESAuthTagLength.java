@@ -25,8 +25,14 @@ public enum AESAuthTagLength {
      * Uses a 128-bit key for data authentication.
      */
     GCM_128(128);
+
+    /**
+     * Bit-length.
+     */
     public final int length;
+
     AESAuthTagLength(int length) {
         this.length = length;
     }
+
 }
