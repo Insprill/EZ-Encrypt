@@ -22,6 +22,9 @@ import java.util.Base64;
  */
 public class AES {
 
+    private AES() {
+    }
+
     private static final String CIPHER_SPEC = "AES/GCM/NoPadding";
     private static final String KEYGEN_SPEC = "PBKDF2WithHmacSHA256";
 
