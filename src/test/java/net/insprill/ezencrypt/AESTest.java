@@ -11,12 +11,12 @@ import java.security.SecureRandom;
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class AESTest {
+class AESTest {
 
     private static final String PASSWORD = "ThisIsAPassword12345";
 
     @Test
-    public void testByteArrayEncryption() throws EncryptionFailedException, DecryptionFailedException {
+    void testByteArrayEncryption() throws EncryptionFailedException, DecryptionFailedException {
         AESSettings settings = new AESSettings();
 
         byte[] bytes = new byte[32];
@@ -29,7 +29,7 @@ public class AESTest {
     }
 
     @Test
-    public void testBase64Encryption() throws EncryptionFailedException, DecryptionFailedException {
+    void testBase64Encryption() throws EncryptionFailedException, DecryptionFailedException {
         AESSettings settings = new AESSettings();
 
         String data = "This string is used to test that Base64 encryption is working properly";
