@@ -55,11 +55,11 @@ EZ-Encrypt was developed as an easy way to securely encrypt data without having 
 [![Maven Central][maven-central-shield]][license-url]
 #### Maven
 ```xml
-    <dependency>
-        <groupId>net.nsprill</groupId>
-        <artifactId>EZ-Encrypt</artifactId>
-        <version>version</version>
-    </dependency>
+<dependency>
+    <groupId>net.nsprill</groupId>
+    <artifactId>EZ-Encrypt</artifactId>
+    <version>version</version>
+</dependency>
 ```
 #### Gradle
 ```groovy
