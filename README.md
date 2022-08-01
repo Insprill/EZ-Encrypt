@@ -17,7 +17,7 @@
 <p align="center">
   A light-weight library for easily encrypting data in Java.
   <br />
-  <a href="https://insprill.net/javadocs/ezencrypt"><strong>View Javadocs »</strong></a>
+  <a href="https://javadoc.io/doc/net.insprill/EZ-Encrypt"><strong>View Javadocs »</strong></a>
   <br />
   <br />
   <a href="https://github.com/Insprill/EZ-Encrypt/issues">Report Bugs</a>
