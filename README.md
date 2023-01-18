@@ -6,29 +6,35 @@
 
 
 
+
 <!-- PROJECT LOGO -->
-<br />
-<p align="center">
+<div align="center">
   <a href="https://github.com/Insprill/EZ-Encrypt">
     <img src="https://imgur.com/BvJ2zvM.png" alt="Logo" width="128" height="128">
   </a>
-</p>
-<h2 align="center">EZ-Encrypt</h2>
-<p align="center">
-  A light-weight library for easily encrypting data in Java.
-  <br />
-  <a href="https://javadoc.io/doc/net.insprill/EZ-Encrypt"><strong>View Javadocs »</strong></a>
-  <br />
-  <br />
-  <a href="https://github.com/Insprill/EZ-Encrypt/issues">Report Bugs</a>
-  ·
-  <a href="https://github.com/Insprill/EZ-Encrypt/issues">Request Features</a>
-</p>
+  <h1>EZ-Encrypt</h1>
+  <p>
+    A light-weight Java library that makes AES encryption simple.
+    <br />
+    <a href="https://javadoc.io/doc/net.insprill/EZ-Encrypt"><strong>View Javadocs »</strong></a>
+    <br />
+    <br />
+    <a href="https://github.com/Insprill/EZ-Encrypt/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/Insprill/EZ-Encrypt/issues">Request Feature</a>
+    <br />
+    <br />
+    <b>Notice:</b> 
+    <br />
+    EZ-Encrypt is now feature-complete. Bug fixes and maintenance will still be provided.
+  </p>
+</div>
+
 
 
 
 <!-- TABLE OF CONTENTS -->
-<details open="open">
+<details>
   <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
   <ol>
     <li><a href="#usage">Usage</a></li>
@@ -40,10 +46,12 @@
 
 
 
+
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
 EZ-Encrypt was developed as an easy way to securely encrypt data without having to write all the overhead yourself.
+
 
 
 
@@ -54,6 +62,7 @@ EZ-Encrypt was developed as an easy way to securely encrypt data without having 
 
 [![Maven Central][maven-central-shield]][license-url]
 #### Maven
+
 ```xml
 <dependency>
     <groupId>net.nsprill</groupId>
@@ -61,37 +70,45 @@ EZ-Encrypt was developed as an easy way to securely encrypt data without having 
     <version>version</version>
 </dependency>
 ```
-#### Gradle
+
+#### Gradle (Groovy)
+
 ```groovy
 dependencies {
     implementation 'net.insprill:EZ-Encrypt:version'
-    // or
-    implementation group: 'net.insprill', name: 'EZ-Encrypt', version: 'version'
 }
 ```
+
+#### Gradle (Kotlin)
+
+```groovy
+dependencies {
+    implementation("net.insprill:EZ-Encrypt:version")
+}
+```
+
+
+
+
+<!-- COMPILING -->
 
 ### Compiling
 
 To compile EZ-Encrypt, you need JDK 8 or higher and an internet connection.  
-First, clone this repo, with `git clone https://github.com/Insprill/EZ-Encrypt.git`.  
-Then run `./gradlew build` from your terminal.  
+Clone this repo, then run `./gradlew build` from your terminal.  
 You can find the compiled jar in the `build/libs` directory.  
 If you want the compiled jar published to your local Maven repo, run `./gradlew publishToMavenLocal`.
+
 
 
 
 <!-- CONTRIBUTING -->
 ## Contributing
 
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+Contributions are what make the open source community such an amazing place to learn, inspire, and create.  
+Any contributions you make are **greatly appreciated**!  
+If you're new to contributing to open-source projects, you can follow [this](https://docs.github.com/en/get-started/quickstart/contributing-to-projects) guide.
 
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Make your changes.
-4. Stage your changes (`git add .`)
-5. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-6. Push to the Branch (`git push origin feature/AmazingFeature`)
-7. Open a Pull Request
 
 
 
@@ -99,6 +116,7 @@ Contributions are what make the open source community such an amazing place to l
 ## License
 
 Distributed under the Apache 2.0 License. See [`LICENSE`][license-url] for more information.
+
 
 
 
